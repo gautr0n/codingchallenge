@@ -1,0 +1,91 @@
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin-top:2px;
+  margin-bottom: 2px;
+}
+
+.box{
+  background-color: #0007;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  border-radius: 20px;
+  border-bottom: 100px solid #0000;
+}
+
+.logo{
+  margin-left: 40%;
+  width: 20%; height: auto;
+  margin-top: 8%
+}
+
+.title{
+  color: rgb(0, 221, 0);
+  font-size: 28px;
+  margin-left: 30%;
+}
+
+.menu{
+  background-color: rgb(0, 221, 0);
+  margin-left: 8%;
+  margin-right: 8%;
+  border: 3px solid rgb(0, 221, 0);
+}
+
+.button{
+  margin-left: 30%;
+}
+
+/* grafica monopattini */
+.space{
+  margin-top: 2%;
+  margin-left: 8%;
+  color: white;
+}
+
+.main{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submain{
+  font-size: 13px;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+
+/* carica monopattini */
+.charge{
+  border-radius: 5px;
+  height: 20px; width: auto;
+}
+.low{
+  background-color: red;
+  border-color: red;
+  margin-right: 80%;
+}
+
+.middle{
+  background-color: orange;
+  border-color: orange;
+  margin-right: 60%;
+}
+
+.full{
+  background-color: rgb(0, 221, 0);
+  border-color: rgb(0, 221, 0);
+  margin-right: 30%;
+}
